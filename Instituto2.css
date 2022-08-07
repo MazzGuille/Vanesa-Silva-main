@@ -1,0 +1,74 @@
+
+html{ /* esto se le conocoe como "css reset" basicamente te borra todos los margenes para que lso adecues a tu preferencia y el border-box es para que el contenido nunca se desborde del div que lo contiene*/
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0; 
+}
+
+
+.wrapper{
+    padding-top: 10px; /* con esto le indico que tenga una separacion de la parte superior de 10px*/
+    padding-left: 40px; /* con esto le indico que tenga una separacion de la parte izquierda de 40px*/
+}
+
+.header-container{
+    display: flex;    
+    justify-content: center; /* con esto le indico que los elementos se alineen en el eje horizontal*/
+    align-items: center; /* con esto le indico que los elementos se alineen en el eje vertical*/
+}
+
+header{
+    display: flex;
+    flex-direction: column; /* con esto le indico que los elementos se apilen en forma de columna*/
+    justify-content: center; /* con esto le indico que los elementos se alineen en el eje horizontal*/
+    align-items: center; /* con esto le indico que los elementos se alineen en el eje vertical*/
+}
+
+/*
+Ya luego los estilos como los colores y esas cosas quedan a tu gusto, fijate que a cada bloque de carrera le coloque una clase con el nombre d ela carrera seguido de la palabra "container" esas clases las puedes usar para manipular el bloque completo
+*/
+
+
+
+/*
+h1 {text-decoration: deeppink;}
+h1 {color:darkviolet;}
+h2 {text-shadow: brown;}
+h2 {color:black;}
+h3 {text-align: center;} 
+h4 {text-align: center;}
+h5 {text-align: center;}
+h6 {text-align: center;}
+
+h3 {color: green;}/*. Ese "." no va, esta causando errores en el sistema de cascada
+h4 {color:mediumvioletred ;}
+h5 {color:dodgerblue ;}
+h6 {color:orangered ;}
+*/
+
+/*body 
+{background-color:rosybrown;}
+{ font: Arial black;}
+body
+img  src="Logo instituto.png">
+img 
+float: left; 
+Width = 70 px;
+heigh = 50 px;
+Si quieres agregar varias propiedades a un solo tag HTML hazlo de la siguiente manera
+
+body{
+    background-color:rosybrown;
+    font: Arial black;
+    float: left; 
+    width: 70px;
+    height: 50px;*/
+
+ /*   background-image: url("Logo instituto.png"); Si queires usar esta imagen como el fondo de la pantalla de todo el body, usa la propiedad "background-image" tambien tienes que guardar la imagen en una carpeta dentro del proyecto, tenerla asi, no va a mostrar nada porque la imagen no existe en el proyecto */
+   
+  /*  Width = 70px; --> aca esta mal el "=" debes usar siempre ":"
+    heigh = 50 px; --> aca esta mal escrito "heigh" es "height"
+    */
+
+/* A manera de recomendacion, el body no debe tener ni altura ni anchura, porque si no, limitas la pagina, el body deberia cubrir todo el sitio web, luego, en el html, puedes usar un "Div" para envolver todo, por lo general le ponen clase "wrapper" y ese si le puedes poner la altura y anchura que deseas que ocupe el contenido */
+}
