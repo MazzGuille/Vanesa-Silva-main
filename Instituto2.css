@@ -7,8 +7,8 @@ html{ /* esto se le conocoe como "css reset" basicamente te borra todos los marg
 
 
 .wrapper{
-    padding-top: 10px; /* con esto le indico que tenga una separacion de la parte superior de 10px*/
-    padding-left: 40px; /* con esto le indico que tenga una separacion de la parte izquierda de 40px*/
+    padding-top: 10px; /* con esto le indico que el contenido total tenga una separacion de la parte superior de 10px*/
+    padding-left: 40px; /* con esto le indico que el contenido total tenga una separacion de la parte izquierda de 40px*/
 }
 
 .header-container{
