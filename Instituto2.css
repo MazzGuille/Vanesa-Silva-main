@@ -12,7 +12,7 @@ html{ /* esto se le conocoe como "css reset" basicamente te borra todos los marg
 }
 
 .header-container{
-    display: flex;    
+    display: flex; /*Esta propiedad te permite manipular los elementos que se encuentren dentro del contenedor que tenga la clase indicada, si no usas flex, no puedes usar las propiedades que te indico mas abajo*/   
     justify-content: center; /* con esto le indico que los elementos se alineen en el eje horizontal*/
     align-items: center; /* con esto le indico que los elementos se alineen en el eje vertical*/
 }
