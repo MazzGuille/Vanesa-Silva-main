@@ -70,5 +70,5 @@ body{
     heigh = 50 px; --> aca esta mal escrito "heigh" es "height"
     */
 
-/* A manera de recomendacion, el body no debe tener ni altura ni anchura, porque si no, limitas la pagina, el body deberia cubrir todo el sitio web, luego, en el html, puedes usar un "Div" para envolver todo, por lo general le ponen clase "wrapper" y ese si le puedes poner la altura y anchura que deseas que ocupe el contenido */
-}
+/* A manera de recomendacion, el body no debe tener ni altura ni anchura, porque si no, limitas la pagina, el body deberia cubrir todo el sitio web, luego, en el html, puedes usar un "Div" para envolver todo, por lo general le ponen clase "wrapper" y ese si le puedes poner la altura y anchura que deseas que ocupe el contenido 
+}*/
